@@ -6,7 +6,7 @@ import numpy as np
 # ===============================================================
 
 # Lê imagem
-imagem = cv2.imread("img_retificacao.png")
+imagem = cv2.imread("Lista 00/img_retificacao.png")
 if imagem is None:
     raise FileNotFoundError("Não foi possível carregar a imagem. "
                             "Verifique o nome ou o caminho do arquivo.")
